@@ -35,9 +35,12 @@
 
 FLOAT_D1(pLUT_AmountChroma, "LUT++ Chroma", "Intensity of color/chroma change of the LUT.", 0.00, 1.00, 1.00, 0)
 FLOAT_D1(pLUT_AmountLuma, "LUT++ Luma", "Intensity of luma change of the LUT.", 0.00, 1.00, 1.00, 0)
+#define CATEGORY "Advanced Controls"
 COLOR(ob, "LUT++ Black OUT Level", "LUT++ Black OUT Level", 0, 0, 0, 0)
 COLOR(ow, "LUT++ White OUT Level", "LUT++ White OUT Level", 255, 255, 255, 0)
 FLOAT_D1(ig, "LUT++ Gamma", "LUT++ Gamma", 0.05, 10.00, 1.00, 0)
+#undef CATEGORY
+LICENSE_MIT()
 
 /*
 uniform float pLUT_AmountChroma <

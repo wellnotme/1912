@@ -14,6 +14,7 @@ FLOAT_S1(fFisheyeZoom, "Fish Eye Zoom", "Lens zoom to hide bugged edges due to t
 FLOAT_S1(fFisheyeDistortion, "Fisheye Distortion", "Distortion of image", -0.300, 0.300, 0.01, 0)
 FLOAT_S1(fFisheyeDistortionCubic, "Fisheye Distortion Cubic", "Distortion of image, cube based", -0.300, 0.300, 0.7, 0)
 FLOAT_S1(fFisheyeColorshift, "Colorshift", "Amount of color shifting", -0.300, 0.300, 0.002	, 0)
+LICENSE_MIT()
 
 /*
 uniform float fFisheyeZoom <

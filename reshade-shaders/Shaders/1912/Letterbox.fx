@@ -23,6 +23,7 @@
 FLOAT2_D1(border_width, "Pixel Size", "Measured in pixels. If this is set to zero then the ratio will be used instead." 0.00, 10000.00, 0.00, 0.00, 0)
 FLOAT2_D1(aspect_ratio, "Aspect Ratio", "Set the desired aspect ratio for the visible area.", 0.00, 10000.00, 16.00, 9.00, 0)
 COLOR(border_color, "Border Color", "Set the desired color for the border area", 0, 0, 0, 0)
+LICENSE_MIT()
 
 /*
 uniform float2 border_width <
